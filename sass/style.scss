@@ -1,0 +1,64 @@
+    .promo {
+        min-height: 550px;
+        background-color: rgb(243, 122, 41);
+        &__title {
+            color: #fff;
+            font-size: 35px;
+            text-align: center;
+            padding-top: 20px;
+        }
+        &__photo {
+            padding-top: 30px;
+            text-align: center;
+        }
+        &__descr {
+            padding-top: 20px;
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            span {
+                color: black;
+                font-weight: bold;
+            }
+        }
+}
+
+.whatsapp {
+    padding: 50px 0 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 250px;
+    text-align: center;
+    
+    &__descr {
+        display: block;
+        margin: 0 auto;
+        width: 50%;
+        span{
+            font-weight: bold;
+        }
+
+    }
+}
+
+.btn {
+    margin-top: 20px;
+    height: 45px;
+    width: 250px;
+}
+
+p {
+    margin-top: 10px;
+}
+
+.footer {
+    min-height: 40px;
+    background-color: #252525;
+    &__phone {
+        padding-top: 10px;
+        color:white;
+        text-align: center;
+        
+    }
+}
