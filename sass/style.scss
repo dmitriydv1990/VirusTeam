@@ -1,9 +1,7 @@
- @import 'media';
-
  .promo {
         padding-bottom: 20px;
         min-height: 550px;
-        background-color: rgb(243, 122, 41);
+        background-image: linear-gradient(#d45179, #9143c6);
         &__title {
             color: #fff;
             font-size: 35px;

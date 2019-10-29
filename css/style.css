@@ -1,7 +1,8 @@
 .promo {
   padding-bottom: 20px;
   min-height: 550px;
-  background-color: #f37a29;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d45179), to(#9143c6));
+  background-image: linear-gradient(#d45179, #9143c6);
 }
 
 .promo__title {
