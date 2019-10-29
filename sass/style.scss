@@ -1,4 +1,7 @@
-    .promo {
+ @import 'media';
+
+ .promo {
+        padding-bottom: 20px;
         min-height: 550px;
         background-color: rgb(243, 122, 41);
         &__title {
@@ -21,7 +24,10 @@
                 font-weight: bold;
             }
         }
-
+        &__languages {
+            margin-top: 20px;
+           text-align: center;
+        }
 }
 
 .whatsapp {
@@ -60,6 +66,17 @@ p {
         padding-top: 10px;
         color:white;
         text-align: center;
-        
     }
+}
+
+.language__btn {
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    border: none;
+    border-radius: 100px;
+    background-color: #007bfb;
+    color: white;
+    text-align: center;
+    
 }
