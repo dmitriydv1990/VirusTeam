@@ -1,3 +1,5 @@
+ @import 'media';
+ 
  .promo {
         padding-bottom: 20px;
         min-height: 550px;
@@ -8,6 +10,7 @@
             text-align: center;
             padding-top: 20px;
         }
+        
         &__photo {
             padding-top: 30px;
             text-align: center;
@@ -26,6 +29,11 @@
             margin-top: 20px;
            text-align: center;
         }
+}
+
+.photo_wrapper {
+    display: flex;
+    justify-content: space-around;
 }
 
 .whatsapp {
@@ -78,3 +86,4 @@ p {
     text-align: center;
     
 }
+
